@@ -1,0 +1,28 @@
+/* Identifying patterns and creating reusable blocks */
+.wrapper {
+    padding-left: 18px;
+    padding-right: 18px;
+    overflow: hidden;
+    max-width: 1236px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    &--medium {
+        max-width: 976px;
+    }
+    
+    /*  making sure wrappers inside wrappers dont have multuple values*/
+    .wrapper {
+    padding-left: 0;
+    padding-right: 0;
+    }
+    
+    &--b-margin {
+    margin-bottom: 1rem;
+        
+        @mixin atSmall {
+        margin-bottom: 3.872rem;
+        }
+    }
+}
+
