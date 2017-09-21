@@ -10,6 +10,7 @@
 *~
 *.sass-cache
 node_modules/
+udemy/
 .tmp/
 
 # OS or Editor folders
