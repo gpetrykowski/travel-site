@@ -1,12 +1,13 @@
 import MobileMenu from './modules/MobileMenu';
 import RevealOnScroll from './modules/RevealOnScroll';
 import $ from 'jquery';
+import StickyHeader from './modules/StickyHeader';
 
 var mobileMenu = new MobileMenu();
 new RevealOnScroll($('.feature-item'), '85%');
 new RevealOnScroll($('.testimonial'), '60%');
 //^we can add as many reveal on scroll items as we want by reusing this class
-
+var stickyHeader = new StickyHeader();
 
 
 // PRE EDITING PRACTICE
