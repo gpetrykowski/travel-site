@@ -12,6 +12,7 @@ var stickyHeader = new StickyHeader();
 var modal = new Modal();
 
 
+
 // PRE EDITING PRACTICE
 //var $ = require('jquery');
 

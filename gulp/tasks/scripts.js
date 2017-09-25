@@ -2,7 +2,7 @@
 var gulp = require('gulp'),
 webpack = require('webpack'); /* for this to work, webpack had to be installed both globally and locally */
 
-gulp.task('scripts', function(callback){
+gulp.task('scripts', ['modernizr'], function(callback){
     return webpack(require('../../webpack.config.js'), function(err, stats){
         // handling error messages
         if (err) {
