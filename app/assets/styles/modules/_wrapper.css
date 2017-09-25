@@ -11,6 +11,10 @@
         max-width: 976px;
     }
     
+    &--narrow {
+        max-width: 450px;
+    }
+    
     /*  making sure wrappers inside wrappers dont have multuple values*/
     .wrapper {
     padding-left: 0;
